@@ -26,7 +26,7 @@ const HeroContent = () => {
         >
           Providing
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">the best</span>
-          Project experience
+          Project Experience
         </motion.div>
         <motion.p variants={slideInFromLeft(0.8)} className="text-lg text-gray-400 my-5 max-w-[600px]">
           I&apos;m a Fullstack Software Engineer with experience in Website, Mobile and Software Development. Check out
@@ -38,10 +38,10 @@ const HeroContent = () => {
         >
           Learn More
         </motion.a>
-        <motion.div variants={slideInFromRight(0.8)} className="w-full h-full flex justify-center items-center">
-          <Image src="mainIconsdark.svg" alt="work icons" height={650} width={650} />
-        </motion.div>
       </div>
+      <motion.div variants={slideInFromRight(0.8)} className="w-full h-full flex justify-center items-center">
+        <Image src="mainIconsdark.svg" alt="work icons" height={650} width={650} />
+      </motion.div>
     </motion.div>
   );
 };
