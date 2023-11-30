@@ -8,13 +8,13 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a href="#about-me" className="h-auto w-auto flex flex-row items-center">
           <Image
-            src="/NavLogo.png"
+            src="https://www.theodinproject.com/assets/icons/odin-icon-a34029cd84a741be4da27758dafd7d7ac3729021adea3e0701e310d91e5c1d04.svg"
             alt="logo"
-            width={70}
-            height={70}
+            width={40}
+            height={40}
             className="cursor-pointer hover:animate-slowspin"
           />
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">WebChain Dev</span>
+          <span className="font-bold ml-[10px] hidden md:block text-gray-300">Odinite</span>
         </a>
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042F861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
