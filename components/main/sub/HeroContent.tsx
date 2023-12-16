@@ -34,8 +34,8 @@ const HeroContent = () => {
           </span>
         </motion.div>
         <motion.p variants={slideInFromLeft(0.8)} className="text-lg text-gray-400 my-5 max-w-[600px]">
-          I&apos;m a Fullstack Software Engineer with experience in Website, Mobile and Software Development. Check out
-          me projects and skills
+          My name is Jonathan Louisa. I&apos;m a Fullstack Software Engineer with experience in Website, Mobile and
+          Software Development. Check out me projects and skills
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
@@ -45,7 +45,7 @@ const HeroContent = () => {
         </motion.a>
       </div>
       <motion.div variants={slideInFromRight(0.8)} className="w-full h-full flex justify-center items-center">
-        <Image src="mainIconsdark.svg" alt="work icons" height={650} width={650} />
+        <Image src="/dissintegrated.png" alt="work icons" height={650} width={786} />
       </motion.div>
     </motion.div>
   );

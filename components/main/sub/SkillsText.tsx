@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { motion } from "framer-motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
@@ -21,10 +19,7 @@ const SkillsText = () => {
       >
         Making apps with modern technologies
       </motion.div>
-      <motion.div
-        variants={slideInFromRight(0.5)}
-        className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
-      >
+      <motion.div variants={slideInFromRight(0.5)} className="text-[20px] text-gray-200 mb-10 mt-[10px] text-center">
         Never miss a task deadline or idea!
       </motion.div>
     </div>
